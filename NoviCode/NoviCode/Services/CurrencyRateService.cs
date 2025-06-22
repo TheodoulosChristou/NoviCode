@@ -27,7 +27,7 @@ namespace NoviCode.Services
                     .Where(x => x.Attribute("currency") != null && x.Attribute("rate") != null)
                     .Select(x => new CurrencyRate
                     {
-                        Currency = x.Attribute("currency")?.Value,
+                        CurrencyCode = x.Attribute("currency")?.Value,
                         Rate = decimal.Parse(x.Attribute("rate")?.Value)
                     })
                     .ToList();
