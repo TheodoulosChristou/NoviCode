@@ -1,0 +1,6 @@
+@NoviCode_HostAddress = http://localhost:5152
+
+GET {{NoviCode_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

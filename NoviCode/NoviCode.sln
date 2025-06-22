@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoviCode", "NoviCode\NoviCode.csproj", "{CD401EB8-95FA-4717-A0AC-EE7BB268397C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD401EB8-95FA-4717-A0AC-EE7BB268397C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD401EB8-95FA-4717-A0AC-EE7BB268397C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD401EB8-95FA-4717-A0AC-EE7BB268397C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD401EB8-95FA-4717-A0AC-EE7BB268397C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FDEE6FE-7861-48D8-BEAC-50DBC4C6ED85}
+	EndGlobalSection
+EndGlobal

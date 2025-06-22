@@ -1,0 +1,27 @@
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore Visual Studio/IDE user-specific files
+*.user
+*.suo
+.vs/
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignore published files
+*.db
+*.zip
+
+# Ignore config in bin folders
+**/bin/**/*.json
+
+# Allow important source files
+!*.cs
+!*.csproj
+!*.sln
