@@ -65,8 +65,8 @@ dotnet ef database update
 dotnet run
 ```
 
-App will be available at: `https://localhost:5001`  
-Swagger (Scalar) docs at: `https://localhost:5001/docs`
+App will be available at: `https://localhost:7111`  
+Swagger (Scalar) docs at: `https://localhost:7111/docs`
 
 ---
 
@@ -96,16 +96,6 @@ Edit `appsettings.json`:
     "DefaultConnection": "Server=YOUR_SERVER;Database=NoviCodeDb;Trusted_Connection=True;"
   }
 }
-```
-
----
-
-## 🧪 Testing
-
-> Unit and integration test support can be added under a `/Tests` folder.
-
-```bash
-dotnet test
 ```
 
 ---
