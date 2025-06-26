@@ -2,31 +2,25 @@
 
 **NoviCode** is a .NET 9 Web API application for managing wallets and real-time currency exchange rates, using a background service to fetch rates from the European Central Bank (ECB).
 
-## 📸 API Usage Examples (Screenshots)
+## 📸 API Usage Examples
 
 ### Create Wallet
-
-![Create Wallet](./b96018bc-920b-40aa-b255-4d760e291e4d.png)
+![Create Wallet](assets/create-wallet.png)
 
 ### Retrieve Wallet in USD
-
-![Retrieve Wallet in USD](./7c597df1-2fd3-4670-9648-306a8e3db9f4.png)
+![Retrieve Wallet](assets/retrieve-wallet.png)
 
 ### Add Funds Strategy
-
-![Add Funds Strategy](./9231e769-a1de-42d6-b4c5-8837fc8aed25.png)
+![Add Funds](assets/add-funds.png)
 
 ### Subtract Funds Strategy
+![Subtract Funds](assets/subtract-funds.png)
 
-![Subtract Funds Strategy](./1ca2e9bf-cf00-4d2e-9871-d6971fef391c.png)
+### Force Subtract Strategy
+![Force Subtract](assets/force-subtract.png)
 
-### Force Subtract Funds Strategy
-
-![Force Subtract Funds Strategy](./131b3e3b-91f7-40e1-9e32-10fab97c1f9d.png)
-
-### Check Balance After Adjustments
-
-![Check Balance After Adjustments](./810dcf80-3bd2-4b7b-a379-78d69d489c21.png)
+### Check Final Balance
+![Final Balance](assets/final-balance.png)
 
 ## 🚀 Tech Stack
 
