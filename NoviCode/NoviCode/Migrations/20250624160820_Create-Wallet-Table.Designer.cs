@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NoviCode.NoviCodeDbContext;
 
@@ -11,9 +12,11 @@ using NoviCode.NoviCodeDbContext;
 namespace NoviCode.Migrations
 {
     [DbContext(typeof(NoviCodeDbContext.NoviCodeDbContext))]
-    partial class NoviCodeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250624160820_Create-Wallet-Table")]
+    partial class CreateWalletTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

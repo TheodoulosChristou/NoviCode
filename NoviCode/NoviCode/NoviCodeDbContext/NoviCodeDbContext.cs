@@ -14,10 +14,13 @@ namespace NoviCode.NoviCodeDbContext
         
        public DbSet<CurrencyRate> CurrencyRate { get; set; }
 
+       public DbSet<Wallet> Wallet { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CurrencyRateConfiguration());
+            modelBuilder.ApplyConfiguration(new WalletConfiguration());
         }
 
     }
